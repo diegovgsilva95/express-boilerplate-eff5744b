@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logbook</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/moment/min/moment-with-locales.min.js" ></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="p-2">
+    <h2>Logbook</h2>
+    <ol id="logbook-history" class="list-unstyled"></ol>
+    <form id="logbook-form">
+        <div class="row no-gutters">
+            <div class="col-2">
+                <input name="nick" type="text" class="form-control form-control-sm rounded-0" placeholder="Nickname">
+            </div>
+            <div class="col-8">
+                <input name="msg" type="text" class="form-control form-control-sm rounded-0" placeholder="Your message">
+            </div>
+            <div class="col-2">
+                <button class="btn btn-secondary btn-sm btn-block rounded-0">Enviar</button>
+            </div>
+        </div>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+</html>
